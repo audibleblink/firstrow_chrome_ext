@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "content_scripts": [ {
+        "exclude_globs":    [  ],
+        "include_globs":    [ "*" ],
+        "js":               [ "FirstRow.user.js" ],
+        "matches":          [   "http://firstrowus1.eu/*",
+                                "https://firstrowus1.eu/*"
+                            ],
+        "run_at": "document_end"
+    } ],
+    "converted_from_user_script": true,
+    "description":  "Mnior cleanup and ad removal",
+    "name":         "FirstRow",
+    "version":      "0.3"
+}
