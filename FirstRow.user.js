@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name       FirstRow
 // @namespace  http://alexflor.es/
-// @version    0.2
+// @version    0.3
 // @description  Minor Cleanup and ad removal. Note: firstrow uses a shitton of nested iframes, making simple scripts impossible. You'll still have to manually close overlays on the video at site launch. Most of the future ones might be disabled. Having a good hosts file helps too. I got a good ad free firstrow with this script and this terminal command (macosx) curl -s http://winhelp2002.mvps.org/hosts.txt >> /etc/hosts
 // @match      http://ifirstrowus.eu/watch/*
 // @copyright  2012+, You
